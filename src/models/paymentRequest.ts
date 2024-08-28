@@ -6,6 +6,11 @@ export interface PaymentRequest {
   amount: number;
   provider: string;
   payment_type: string;
+  country: string;
+  currency: string;
+  phoneNumber: string;
+  reference: string;
+  walletAddress: string;
   // Add other relevant fields
 }
 
